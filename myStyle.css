@@ -1,6 +1,7 @@
 body{   font-family: "Roboto", "Helvetica", "Arial", sans-serif;}
 .well{
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+ 
 
 }
 .navBar{background-color: transparent; border: none;  margin-top: 8px ;
@@ -99,7 +100,7 @@ margin-top: 170px;font-family: "Roboto", "Helvetica", "Arial";color:white;
 .fontSub{color: gray}
 
 
-.zmdi{color:rgb(112, 65, 151)}
+.zmdi{color:black}
 .page3{
     background-image:url(porcentajes.jpg);
     background-size: cover;
