@@ -1,0 +1,138 @@
+body{   font-family: "Roboto", "Helvetica", "Arial", sans-serif;}
+.well{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+.navBar{background-color: transparent; border: none;  margin-top: 8px ;
+    
+;
+}
+/* Hide scroll */
+::-webkit-scrollbar { 
+    display: none; 
+    -ms-overflow-style: none; 
+    overflow: -moz-scrollbars-none;  
+}
+.navBar a:hover, .navBar a:focus { text-decoration: none}
+.btnMD-P{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+}
+.btnMD-contained.active {
+    background-color:rgb(112, 65, 151);
+    color:white;
+    }
+
+.fontCol2{color:#de00ff }
+.hamburger{ border-radius: 50%;height: 40px;width: 40px;text-align: center;overflow: hidden;background-color:transparent;color:black;border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; 
+    margin-top: -2px
+
+
+}
+.hamburger:hover {     background-color:rgb(112, 65, 151); color:white;}
+.hero {
+    background-image:url(2.png) ;
+   height: calc(100vh);
+ 
+   overflow-x: hidden;
+   overflow-y: auto;
+   perspective: 2px;
+   background-attachment: fixed;
+   background-position: center 100%;
+   background-repeat: no-repeat;
+   background-size: cover ;
+
+
+   
+}
+
+.btnMD-contained{ 
+    
+     color: black;
+    background-color: transparent;
+     
+    padding: 8px 16px;
+
+    min-width: 64px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 80ms ;
+    min-height: 36px;
+    box-sizing: border-box;
+    line-height: 1.4em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0;
+    display: inline-flex;
+    outline: none;
+    position: relative;
+    user-select: none;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+   
+}
+
+.btnMD-contained:hover{
+    
+    background-color:rgb(112, 65, 151);
+    color:white;
+    transform: scale(1.02);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+
+}
+.text-font{
+margin-top: 170px;font-family: "Roboto", "Helvetica", "Arial";color:white;
+}
+
+.page2{
+    text-align: center;height:calc( 100vh )
+}
+.text-font2{
+    margin-top: 100px;font-family: "Roboto", "Helvetica", "Arial";color:black
+    }
+.fontSub{color: gray}
+
+
+.zmdi{color:rgb(112, 65, 151)}
+.page3{
+    background-image:url(porcentajes.jpg);
+    background-size: cover;
+
+    ; height: 100vh;}
+.page4{ height: 100vh;}
+
+
+
+body{
+    -webkit-scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory;
+    overflow-y:scroll;
+}
+
+section{
+
+    scroll-snap-align: start;
+}
+
+ /* EXTRA WIDE */
+ @media only screen and (max-width : 5000px) {
+    .navBar, .container{width:85vw}
+    
+}
+
+@media only screen and (max-width : 1024px) {
+    .hero {
+        background-image:url(IPADTEST.png);
+        background-position: 20% 100%;
+
+    
+}
+
+
+}

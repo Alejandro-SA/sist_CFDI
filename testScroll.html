@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="onepage-scroll.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body style="scroll-snap-type: y mandatory; overflow-y: scroll">
+        <div class="container-fluid navbar-fixed-top" style="background-color:white; height: 50px; box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3); ">
+                <div class="container navBar">
+        
+        
+                    <button type="button" class=" dropdown-toggle hamburger " data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <i class="glyphicon glyphicon-menu-hamburger"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#2">Action</a></li>
+                        <li><a href="#3">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+        
+        
+                    <div class="dropdown pull-left">
+                        <div class="dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="true">
+        
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#1">Action</a></li>
+                            <li><a href="#2">Another action</a></li>
+                            <li><a href="#3">Something else here</a></li>
+        
+                        </ul>
+                    </div>
+        
+        
+                    <div class="pull-right">
+                        <a type="button" class="btnMD-contained scroll" href="#caracteristicas">CARACTERISTICAS </a>
+                        <a type="button" class="btnMD-contained scroll" href="#porque">¿POR QUÉ? </a>
+                        <a type="button" class="btnMD-contained scroll" href="#planes">PLANES </a>
+                        <a type="button" class="btnMD-contained scroll" href="#comprar">COMPRAR </a>
+        
+                    </div>
+        
+        
+                </div>
+        
+            </div>
+
+
+
+
+
+    <div class="container" >
+        <section style="height: 100vh; background-color: hotpink; scroll-snap-align: start;"></section>
+        <section style="height: 100vh; background-color: gray; scroll-snap-align: start;"></section>
+        <section style="height: 100vh; background-color: green; scroll-snap-align: start;"></section>
+        <section style="height: 100vh; background-color: hotpink; scroll-snap-align: start;"></section>
+        <section style="height: 100vh; background-color: gray; scroll-snap-align: start;"></section>
+        <section style="height: 100vh; background-color: green; scroll-snap-align: start;"></section>
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+        <script src="snap-scroll.js"></script>
+
+<script>
+$(function(){
+
+$("section").SnapScroll();
+
+});
+
+</script>
+
+    </div>
+    
+</body>
+
+</html>
