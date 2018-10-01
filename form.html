@@ -43,7 +43,7 @@
                 <a type="button" class="btnMD-contained scroll" href="index.html#caracteristicas">CARACTERÍSTICAS </a>
                 <a type="button" class="btnMD-contained scroll" href="index.html#porque">¿POR QUÉ? </a>
                 <a type="button" class="btnMD-contained scroll" href="index.html#planes">PLANES </a>
-                <a type="button" class="btnMD-contained " href="#">COMPRAR </a>
+              
 
             </div>
 
@@ -94,14 +94,14 @@
                         <div class=" col-sm-4 col-sm-offset-4">
                             <div class="checkbox" >
                                 
-                                <label style="visibility: visible" ><input type="checkbox"class="hidCB" > <div class="glyphicon glyphicon-ok okCBox"></div>  <div class="boxMaterial"> </div>  <div class="circCB"></div> Acepto los términos y condiciones </label>
+                                <label style="visibility: visible" ><input type="checkbox"class="hidCB" id="agreement" > <div class="glyphicon glyphicon-ok okCBox"></div>  <div class="boxMaterial"> </div>  <div class="circCB"></div> Acepto los términos y condiciones </label>
                             </div>
                                 </div>
                                 
                             </div>
                             <div class="form-group">
                                 <div class=" col-sm-4 col-sm-offset-4">
-                                    <button type="submit" class="btn btn-default btnMD-contained" style="background-color: rgb(255, 64, 129)">Registrarme</button>
+                                    <button type="submit" disabled id="send"class="btn btn-default btnMD-contained" style="background-color: rgb(255, 64, 129)">Registrarme</button>
                                 </div>
                             </form>
                         </div>
@@ -118,7 +118,17 @@
         crossorigin="anonymous"></script>
         
         <script>
-        
+        $('#agreement' ).click(function() {
+
+   if ( $('#agreement').is(":checked")){
+    $('#send').prop('disabled', false);
+   }
+   else {
+                $('#send').prop('disabled', true);
+}}
+
+);
+
         </script>
 
 </body>

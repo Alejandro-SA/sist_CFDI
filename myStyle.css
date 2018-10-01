@@ -16,6 +16,9 @@ body {
     ;
 }
 
+#sep{
+    margin-top: 150px
+}
 /* Hide scroll */
 ::-webkit-scrollbar {
     display: none;
@@ -216,7 +219,7 @@ section {
 
 @media only screen and (max-width : 1024px) {
     .hero {
-        background-image: url(IPADTEST.png);
+
         background-position: 30% 100%;
     }
 
@@ -300,10 +303,17 @@ section {
         font-size: 10px;
 
     }
+
+    #sep{
+        margin-top: 50px;
+        }    
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    #sep{
+        margin-top: 0px;
+        }    
     .cont-2 {
         margin-top: 10px;
 
@@ -313,8 +323,15 @@ section {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+
+    #sep{
+    margin-top: 50px;
+    }    
+    
     .cont-2 {
-        margin-top: 10px;
+        margin-top: 50px;
 
     }
+    
+
 }
