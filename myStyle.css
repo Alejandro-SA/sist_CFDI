@@ -119,6 +119,16 @@ a:focus {
 
 }
 
+.navBar img {
+    width:35px
+}
+.textBox1 {
+    font-size: 23px
+}
+
+.textBox1--title{
+    font-size: 54px;
+}
 .text-font {
     margin-top: 170px;
     font-family: "Roboto", "Helvetica", "Arial";
@@ -145,7 +155,15 @@ a:focus {
     width: 80%;
     margin: 0 auto;
 }
+.text--1{font-size: 30px}
+.text--2{font-size: 18px}
 
+.text--3{font-size: 18px}
+.text--4{font-size: 60px}
+
+.text--5{font-size: 40px;
+    font-weight: bold}
+.text--6{font-size: 134px}
 .zmdi {
     color: black
 }
@@ -158,6 +176,10 @@ a:focus {
     height: 100vh;
 }
 
+.textrow3{
+    display: flex;
+    margin-top: 100px;
+}
 .page4 {
     height: 100vh;
 }
@@ -175,6 +197,11 @@ section {
     scroll-snap-align: start;
 }
 
+.image--1{display:grid; 
+    background-image:url(action.jpg);
+    background-size:cover;
+    background-position: center 60%;
+     height: 60vh}
 
 .empty {
     margin-top: 50px;
@@ -318,8 +345,70 @@ section {
         margin-top: 10px;
 
     }
+    .navBar a  {
+        font-size: 12px
+    }
+    .navBar .btnMD-contained{
+        padding: 3px 8px;
+    }
+    .navBar img {
+        width:30px
+    }
+    .textBox1 {
+        font-size: 16px;
+        margin-top: 70px
+    }
+    .textBox1 p {
+        
+        margin-top: -10px
+    }
 
+    .textBox1--title{
+        font-size: 36px;
+        margin-top: 30px;
+    }
+
+    .textBox1 ul li {
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .textBox1 ul{
+        margin-top: 60px;
+        margin-bottom: 70px;
+    }
+
+    #caracteristicas .container{
+        width:100%
+    }
+
+    .textBox2{
+        font-size: 14px;
+    }
+    .textrow3{
+        display: block;
+        margin-top: 500px;
+    }
+    #sep{
+        margin-top: 50px;
+        }    
+
+.text--1{font-size: 20px}
+.text--2{font-size: 16px}
+
+.text--3{font-size: 16px}
+.text--4{font-size: 25px}
+
+.text--5{font-size: 16px;
+    font-weight: normal}
+.text--6{font-size: 80px}
+
+.image--1{height: 35vh;
+    background-position: center 100%;}
 }
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -333,5 +422,6 @@ section {
 
     }
     
+
 
 }
