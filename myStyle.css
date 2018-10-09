@@ -407,8 +407,14 @@ section {
 
 .image--1{height: 35vh;
     background-position: center 100%;}
-}
 
+    .container navBar {width: 100%}
+
+    .navBar,
+    .container {
+        width: 98vw
+    }
+}
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
