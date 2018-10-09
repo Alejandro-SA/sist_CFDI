@@ -414,6 +414,9 @@ section {
     .container {
         width: 98vw
     }
+
+    .text-font2 {
+        margin-top: 0px;
 }
 
 /* Custom, iPhone Retina */

@@ -39,7 +39,7 @@
 
             <div class="pull-right">
                <a type="button" class="btnMD-contained scroll" href="#top" style="display: none"> </a>
-                <a type="button" class="btnMD-contained scroll" href="#caracteristicas">CARACTERÍSTICAS </a>
+                <a type="button" class="btnMD-contained scroll" href="#caracteristicas"><span class="visible-xs-inline">CARAC.</span><span class="hidden-xs">CARACTERÍSTICAS</span> </a>
                 <a type="button" class="btnMD-contained scroll" href="#porque">¿POR QUÉ? </a>
                 <a type="button" class="btnMD-contained scroll" href="#planes">PLANES </a>
                 <!-- <a type="button" class="btnMD-contained " href="form.html">COMPRAR </a> -->
@@ -419,11 +419,17 @@
 <script src="snap-scroll.js"></script>
 
 <script>
-$(function(){
+    if ( $(window).width() > 739) {      
+        $(function(){
 
 $("section").SnapScroll();
 
 });
+} 
+else {
+  //Add your javascript for small screens here 
+}
+
 
 </script>
 </body>
